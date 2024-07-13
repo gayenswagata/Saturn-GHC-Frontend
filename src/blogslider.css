@@ -1,0 +1,117 @@
+
+.blog-container {
+    /* width: 40vw;
+  overflow: hidden;
+  padding: 20px; */
+  
+  margin: 20px 10px 0px 10px;  
+  padding: 0px 0px 0px 10px;
+  width: 350px;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 20px; */
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+  width: 330px;
+}
+
+.blog-header h2 {
+  margin: 0;
+  font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.18000000715255737px;
+text-align: left;
+
+}
+
+.view-all {
+  background: none;
+  box-shadow: 0px 0px 10px 0px #0000001F;
+
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  border: 1.5px solid #333333;
+
+  font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.52px;
+text-align: center;
+color: #333333;
+width: 83px;
+
+}
+
+.list {
+  display: flex;
+  /* overflow-x: scroll;
+  padding: 5px 0;
+  cursor: grab; */
+  cursor: grab;
+  margin: 0;
+  
+  overflow: scroll;
+  height: 340px;
+  user-select: none;
+  width: 350px;
+}
+
+ul{
+  padding: 0px;
+}
+
+.list.-active {
+  cursor: grabbing;
+}
+
+.card {
+  min-width: 271px;
+  height: 271px;
+  /* margin-right: 5px; */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  color: white;
+  overflow: hidden;
+}
+
+/* .card-content {
+  
+  
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+} */
+
+.card-content h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin: 5px 0 0;
+}
+
+.card:last-of-type {
+  margin-right: 0;
+}
+
+.blog-grid{
+    height: 269px;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0px 0px 0px;
+    white-space: nowrap;
+    width: 340px;
+}
